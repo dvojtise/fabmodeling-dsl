@@ -68,8 +68,8 @@
 
 	<modules>
 		<module>fr.inria.fabmodeling-dsl.bom</module>
-		<!-- <module>fr.inria.fabmodeling-dsl.model</module>
-		<module>fr.inria.fabmodeling-dsl.xtext</module> 
+		<module>fr.inria.fabmodeling.fabm.model</module>
+		<!--<module>fr.inria.fabmodeling-dsl.xtext</module> 
 		<module>thirdparty</module>-->
 	</modules>
 
