@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: fr.inria.fabmodeling.fabm.model;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-ClassPath: .
+Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: fr.inria.fabmodeling.fabm.model.fabm,
+ fr.inria.fabmodeling.fabm.model.fabm.impl,
+ fr.inria.fabmodeling.fabm.model.fabm.util
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Automatic-Module-Name: fr.inria.fabmodeling.fabm.model

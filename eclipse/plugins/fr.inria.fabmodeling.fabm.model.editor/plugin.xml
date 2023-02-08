@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated fabm -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="fr.inria.fabmodeling.fabm.model.fabm.presentation.FabmModelWizardID"
+            name="%_UI_FabmModelWizard_label"
+            class="fr.inria.fabmodeling.fabm.model.fabm.presentation.FabmModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/FabmModelFile.gif">
+         <description>%_UI_FabmModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated fabm -->
+      <editor
+            id="fr.inria.fabmodeling.fabm.model.fabm.presentation.FabmEditorID"
+            name="%_UI_FabmEditor_label"
+            icon="icons/full/obj16/FabmModelFile.gif"
+            extensions="fabm"
+            class="fr.inria.fabmodeling.fabm.model.fabm.presentation.FabmEditor"
+            contributorClass="fr.inria.fabmodeling.fabm.model.fabm.presentation.FabmActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

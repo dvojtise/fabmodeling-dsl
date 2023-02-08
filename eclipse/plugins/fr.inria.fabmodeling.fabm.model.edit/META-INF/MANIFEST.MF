@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: fr.inria.fabmodeling.fabm.model.edit;singleton:=true
+Automatic-Module-Name: fr.inria.fabmodeling.fabm.model.edit
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: fr.inria.fabmodeling.fabm.model.fabm.provider.FabmEditPlugin$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: fr.inria.fabmodeling.fabm.model.fabm.provider
+Require-Bundle: org.eclipse.core.runtime,
+ fr.inria.fabmodeling.fabm.model;visibility:=reexport,
+ org.eclipse.emf.edit;visibility:=reexport
+Bundle-ActivationPolicy: lazy

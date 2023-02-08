@@ -11,9 +11,10 @@
 	</parent>
 	<modules>
 		<!-- plugins -->
-		<!--<module>fr.irisa.diverse.cofra.mfc4auth.model</module>-->
-		<!--<module>fr.inria.fabmodeling.fabm.model</module>
-		<module>fr.inria.fabmodeling.fabm.xtext</module>-->
+		<module>fr.inria.fabmodeling.fabm.model</module>
+		<module>fr.inria.fabmodeling.fabm.model.edit</module>
+		<module>fr.inria.fabmodeling.fabm.model.editor</module>
+		<!--<module>fr.inria.fabmodeling.fabm.xtext</module>-->
 	</modules>
 
 </project>
